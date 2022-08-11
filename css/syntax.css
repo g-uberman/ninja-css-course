@@ -1,4 +1,23 @@
+/*********************************************
+*
+* Author: Grzegorz Uberman
+* Date: 11.08.22
+*
+*********************************************/
+
+/* Style all p tags */
+
 p{
     font-size: 18px;
     color: blue;
+}
+
+#header p{
+    font-size: 24px;
+}
+
+/* Style all header tags */
+
+h1{
+    font-size: 44px;
 }
