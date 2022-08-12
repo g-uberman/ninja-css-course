@@ -5,10 +5,19 @@
 *
 *********************************************/
 
-span{
+body{
+    color: red;
+}
+
+div{
     color: blue;
 }
 
-span{
-    color: red;
+p{
+    color: darkcyan;
+}
+
+a{
+    color: green;
+    text-decoration: none
 }
