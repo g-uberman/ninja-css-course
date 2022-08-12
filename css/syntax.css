@@ -1,11 +1,8 @@
-p:first-letter{
-    font-size: 24px;
+article p:first-child {
+    font-weight: bold;
 }
 
-a:hover{
-    color: cyan
-}
-
-div:hover{
-    background: #EEEEEE
+article p:last-child {
+    color: red;
+    padding-bottom: 20px;
 }
