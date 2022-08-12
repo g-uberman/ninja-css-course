@@ -1,23 +1,15 @@
-/*********************************************
-*
-* Author: Grzegorz Uberman
-* Date: 11.08.22
-*
-*********************************************/
-
-body{
-    color: red;
-}
-
-div{
-    color: blue;
+#header{
+color: red;
 }
 
 p{
-    color: darkcyan;
+    color: blue;
 }
 
-a{
+.test{
     color: green;
-    text-decoration: none
+}
+
+strong{
+    color: green
 }
