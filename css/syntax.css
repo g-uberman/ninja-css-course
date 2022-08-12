@@ -1,15 +1,7 @@
-#header{
-color: red;
-}
-
 p{
-    color: blue;
+    color: red !important;
 }
 
-.test{
+#header p{
     color: green;
-}
-
-strong{
-    color: green
 }
