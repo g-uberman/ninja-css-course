@@ -1,19 +1,11 @@
-span[class~=deck]{
-    color: blue;
+p:first-letter{
+    font-size: 24px;
 }
 
-div[id]{
-    background: lightgrey;
+a:hover{
+    color: cyan
 }
 
-a[target]{
-    color: red;
-}
-
-a[href$=pdf]{
-    color: green;
-}
-
-a[href^=http]{
-    color: yellow
+div:hover{
+    background: #EEEEEE
 }
