@@ -1,8 +1,7 @@
 h1{
-    font-weight: normal;
+    text-transform: uppercase;
 }
 
 p{
-    font-weight: 100;
-    font-family: "Yu Gothic"
+    text-transform: lowercase;
 }
