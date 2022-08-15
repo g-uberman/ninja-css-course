@@ -1,7 +1,15 @@
-h1{
-    text-transform: uppercase;
+body{
+    background-image: url("../img/bg.jpg");
 }
 
-p{
-    text-transform: lowercase;
+#header h1{
+    color: #992222;
+}
+
+#articles h2{
+    color: maroon;
+}
+
+article{
+    background-image: linear-gradient(white, #cfa795);
 }
