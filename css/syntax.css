@@ -1,25 +1,20 @@
-.block {
-    padding: 10px;
-    margin: 10px;
-    border: 1px solid black;
+#main-content div{
+    background-color: lightgrey;
+    margin: 0 0 20px 0;
 }
 
-.inline {
-    padding: 10px;
-    margin: 10px;
-    border: 1px solid black;
+.static-width{
+    width: 300px;
+    height: 100px;
+}
+
+.percentage-width{
+    width: 70%;
+    height: 50px;
+}
+
+.inline-block{
+    width: 10%;
     display: inline-block;
-}
-
-.key{
-    padding: 10px;
-    margin: 3px;
-    border: 10px lightgrey outset;
-    display: inline-block;
-    background: white;
-}
-
-.key:hover{
-    border-style: inset;
-    background: lightgrey;
+    margin: 5px !important;
 }
