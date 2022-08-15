@@ -1,13 +1,51 @@
-#header{
-    margin: 30px auto;
-    padding: 10px;
-    border: 1px solid black;
-    text-align: center;
-    width: 50%;
+.box{
+    padding: 20px;
+    margin: 20px;
+    width: 50px;
+
 }
 
-article{
-    margin: 30px;
-    padding: 10px 10% 30px;
-    border: 1px solid black;
+.dashed{
+    border: 1px blue dashed;
+}
+
+.dotted{
+    border: 1px blue dotted;
+}
+
+.double{
+    border: 5px blue double;
+}
+
+.groove{
+    border: 15px lightgrey groove;
+}
+
+.inset{
+    border: 15px lightgrey inset;
+}
+
+.outset{
+    border: 15px lightgrey outset;
+}
+
+.ridge{
+    border: 15px lightgrey ridge;
+}
+
+.solid{
+    border: 1px blue solid;
+}
+
+.button{
+    padding: 10px;
+    margin: 3px;
+    float: left;
+    border: 16px lightgrey outset;
+    background: white;
+}
+
+.button:hover{
+    border-style: inset;
+    background: lightgrey;
 }
