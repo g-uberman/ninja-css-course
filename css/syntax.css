@@ -1,15 +1,8 @@
-a{
-    color: crimson;
-    text-decoration: none;
-    font-weight: bold;
-    font-style: italic;
+p{
+    font-size 12px;
+    line-height: 0.2em;
 }
 
-a:visited{
-    color: darkred;
-}
-
-a:hover{
-    color: lightcoral;
-    background: yellow;
+h2{
+    letter-spacing: 5px;
 }
