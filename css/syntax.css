@@ -1,53 +1,24 @@
-.circle{
-    width: 400px;
-    height: 400px;
-    position: absolute;
-    border-radius: 50%;
-}
-
-.circle > p{
-    line-height: 370px;
-    text-align: center;
+.button{
+    display: block;
+    width: 100px;
+    padding: 12px;
+    border: 1px solid #77aaaa;
+    font-family: arial;
     font-weight: bold;
     text-transform: uppercase;
-    font-family: arial;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 4px;
+    background: #aadddd;
+    background: -moz-linear-gradient(top, #aadddd 0%, #77aaaa 100%);
+    background: -webkit-linear-gradient(top, #aadddd 0%, #77aaaa 100%);
+    background: linear-gradient(top, #aadddd 0%, #77aaaa 100%);
 }
 
-.c1{
-    background: #CC8888;
-    top: 50px;
-    left: 50px;
-    opacity: 50%;
-}
-
-.c2{
-    background: #88CC88;
-    top: 250px;
-    left: 150px;
-    opacity: 50%;
-}
-
-.c3{
-    background: #8888CC;
-    top: 50px;
-    left: 250px;
-    opacity: 50%;
-}
-
-.c4{
-    background: #CC888880;
-    top: 50px;
-    left: 750px;
-}
-
-.c5{
-    background: #88CC8880;
-    top: 250px;
-    left: 850px;
-}
-
-.c6{
-    background: #8888CC80;
-    top: 50px;
-    left: 950px;
+.button:hover{
+    background: #77aaaa;
+    background: -moz-linear-gradient(bottom, #aadddd 0%, #77aaaa 100%);
+    background: -webkit-linear-gradient(bottom, #aadddd 0%, #77aaaa 100%);
+    background: linear-gradient(bottom, #aadddd 0%, #77aaaa 100%);
 }
