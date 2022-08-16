@@ -1,8 +1,53 @@
-.banner{
-    width: 100%;
-    height: 300px;
-    background-image: url(../img/star-white.png), url(../img/cat1.jpg);
-    background-repeat: no-repeat, no-repeat;
-    background-position: 97% 15px, center;
-    background-size: 50px, 100%;
+.circle{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle > p{
+    line-height: 370px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: arial;
+}
+
+.c1{
+    background: #CC8888;
+    top: 50px;
+    left: 50px;
+    opacity: 50%;
+}
+
+.c2{
+    background: #88CC88;
+    top: 250px;
+    left: 150px;
+    opacity: 50%;
+}
+
+.c3{
+    background: #8888CC;
+    top: 50px;
+    left: 250px;
+    opacity: 50%;
+}
+
+.c4{
+    background: #CC888880;
+    top: 50px;
+    left: 750px;
+}
+
+.c5{
+    background: #88CC8880;
+    top: 250px;
+    left: 850px;
+}
+
+.c6{
+    background: #8888CC80;
+    top: 50px;
+    left: 950px;
 }
