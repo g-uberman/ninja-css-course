@@ -1,9 +1,8 @@
 .static-width{
     width: 300px;
     height: 300px;
-    background-color: lightblue;
-    background-image: url(../img/cateye.jpg);
-    background-repeat: round;
+    background: url(../img/cateye.jpg) lightblue no-repeat top center;
+    background-size: 50px;
 }
 
 .eye{
@@ -13,11 +12,7 @@
     margin: 0px 20px;
     border: 2px solid black;
     border-radius: 50%;
-    text-align: center;
-    vertical-align: middle;
-    background: url(../img/cateye.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background: url(../img/cateye.jpg) no-repeat center;
     background-size: 50px;
 }
 
